@@ -7,6 +7,7 @@ import {
 import FooterWrapper from "../components/FooterWrapper";
 import SearchInput from "../components/SearchInput";
 import ItemCards from "../components/ItemCards";
+import Card from "../components/Card";
 
 const Home = () => {
   return (
@@ -24,6 +25,9 @@ const Home = () => {
         <ItemCards>
           <CategoryOutlined fontSize="small" /> <p>Subject</p>
         </ItemCards>
+      </div>
+      <div>
+        <Card title="No one is here." author="Aravind Vijayan" />
       </div>
     </FooterWrapper>
   );
